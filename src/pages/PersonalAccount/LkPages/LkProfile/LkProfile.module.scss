@@ -1,0 +1,16 @@
+.wrapper {
+}
+
+.cards_wrapper {
+  //border: 1px solid red;
+  display: flex;
+  margin-bottom: 40px;
+  width: 1030px;
+  @media (max-width: 1360px) {
+    flex-direction: column;
+    width: 504px;
+  }
+  @media (max-width: 550px) {
+    width: 320px;
+  }
+}

@@ -1,0 +1,219 @@
+.background__wrapper {
+  background: url('../../../img/workbooks/background-workbooks.png') no-repeat;
+  background-size: cover;
+  padding-bottom: 107px;
+  @media (max-width: 480px) {
+    background: url('../../../img/workbooks/background-workbooks-mobile.png') no-repeat;
+    background-size: cover;
+  }
+}
+
+
+.wrapper {
+  font-family: SF Pro Rounded Regular, system-ui;
+  margin: 0 auto;
+  max-width: 1920px;
+  /*border: 1px solid red;*/
+  @media (max-width: 480px) {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.container {
+  //border: 1px solid red;
+  margin: 0 60px;
+  position: relative;
+  @media (min-width: 1600px) {
+    margin: 0 200px;
+  }
+  @media (max-width: 1100px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  @media (max-width: 1144px) {
+    margin: 0 30px;
+  }
+  @media (max-width: 480px) {
+    margin: 0 auto;
+    //align-items: flex-start;
+  }
+}
+
+.slider__wrapper {
+  //border: 1px solid red;
+  width: 489px;
+  height: 672px;
+  margin-top: 43px;
+  @media (max-width: 1100px) {
+
+  }
+  @media (max-width: 590px) {
+    width: 310px;
+    height: 672px;
+    margin-top: 20px;
+  }
+}
+
+.title {
+  font-size: 60px;
+  line-height: 72px;
+  padding-top: 60px;
+  text-transform: uppercase;
+  @media (max-width: 1100px) {
+    font-size: 44px;
+    line-height: 40px;
+  }
+  @media (max-width: 840px) {
+    text-align: center;
+    width: 500px;
+    font-size: 40px;
+    line-height: 40px;
+  }
+  @media (max-width: 480px) {
+    text-align: left;
+    align-self: flex-start;
+    width: 229px;
+    height: 60px;
+    font-size: 25px;
+    line-height: 30px;
+    padding-top: 0px;
+    margin-top: 20px;
+  }
+}
+
+.about_workbooks {
+  width: 825px;
+  font-size: 25px;
+  line-height: 30px;
+  margin-top: 6px;
+  @media (max-width: 1100px) {
+    font-size: 20px;
+    width: 725px;
+    text-align: center;
+  }
+  @media (max-width: 840px) {
+    width: 450px;
+  }
+  @media (max-width: 480px) {
+    align-self: flex-start;
+    text-align: left;
+    width: 300px;
+    height: 56px;
+    font-size: 12px;
+    line-height: 14px;
+    margin-top: 0;
+    //margin-top: 16px;
+  }
+}
+
+
+.cards {
+  display: flex;
+}
+
+//.test_card_wrapper {
+//  display: none !important;
+//}
+
+.test__card {
+  width: 479px;
+  height: 662px;
+  margin-top: 43px;
+  margin-left: 50px;
+  background: rgba(224, 224, 224, 0.25);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(150px);
+  border-radius: 30px;
+  position: relative;
+  @media (max-width: 1100px) {
+  display: none;
+  }
+}
+
+.slider_test_card_wrapper {
+  display: none !important;
+  @media (max-width: 1100px) {
+    display: block;
+  }
+}
+
+.circle__wrap {
+  background: url('../../../img/workbooks/fire.png') no-repeat center;
+}
+
+.purple__circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 60px;
+  margin-top: 121px;
+  width: 360px;
+  height: 360px;
+  background: #E0ADFF;
+  opacity: 0.5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  filter: blur(50px);
+  @media (max-width: 480px) {
+    margin-top: 151px;
+    margin-left: 18px;
+    width: 240px;
+    height: 264px;
+  }
+}
+
+.test__span {
+  z-index: 10;
+  position: absolute;
+  top: 338px;
+  left: 80px;
+  text-align: center;
+  width: 335px;
+  font-size: 25px;
+  line-height: 30px;
+  @media (max-width: 480px) {
+    width: 287px;
+    top: 454px;
+    left: 5px;
+  }
+}
+
+
+
+
+
+.workbook__btn__test {
+  font-family: SF Pro Display, system-ui;
+  margin-top: 89px;
+  margin-left: 240px;
+  font-size: 25px;
+  line-height: 29.83px;
+  cursor: pointer;
+  text-transform: uppercase;
+  width: 209px;
+  height: 52px;
+  border: none;
+  background: #FFE814;
+  box-shadow: -2px 2px 4px rgba(0, 0, 0, 0.4);
+  border-radius: 15px;
+  transition: all 0.2s ease;
+  @media (max-width: 1100px) {
+    margin-right: 160px;
+  }
+  @media (max-width: 480px) {
+    margin-top: 172px;
+    margin-left: 48px;
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
+
+.workbook__btn__test:hover {
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.5);
+}
+
+
+

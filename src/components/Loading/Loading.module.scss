@@ -1,0 +1,32 @@
+
+.background__wrapper {
+  background: url('../../img/homepage/background-homepage.png') no-repeat;
+  background-size: cover;
+}
+
+.wrapper {
+  height: 100vh;
+  margin: 0 auto;
+  max-width: 1640px;
+  max-height: 1000px;
+  /*border: 1px solid red;*/
+}
+
+.container {
+  font-family: SF Pro Rounded Regular, system-ui;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 150px;
+  margin: 0 auto;
+  ///*max-width: 1312px;*/
+  margin: 0 60px;
+  font-size: 84px;
+  img {
+    @media (max-width: 480px) {
+      width: 80px;
+    }
+  }
+}
+

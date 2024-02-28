@@ -1,0 +1,39 @@
+.course_wrapper {
+  border-radius: 15px;
+  padding: 20px;
+  margin-top: 50px;
+  margin-left: 30px;
+  margin-right: 30px;
+  border: 1px solid grey;
+}
+
+.course_title {
+  font-size: 35px;
+}
+
+.course_item {
+  width: 500px;
+  align-self: flex-start;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.input_container {
+  margin-left: 50px;
+  input {
+    width: 300px;
+    max-width: 300px;
+  }
+  textarea {
+    width: 300px;
+  }
+
+}
+
+.btn_change_course {
+  margin-top: 20px;
+}
+

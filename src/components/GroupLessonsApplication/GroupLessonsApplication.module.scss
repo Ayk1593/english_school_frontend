@@ -1,0 +1,246 @@
+.application_modal_wrapper {
+  font-family: SF Pro Rounded Regular, system-ui;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 757px;
+  height: 454px;
+  @media (max-width: 900px) {
+    width: 650px;
+  }
+  @media (max-width: 750px) {
+    width: 300px;
+  }
+}
+
+.application_modal_content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 42px;
+  width: 596px;
+  @media (max-width: 900px) {
+    width: 496px;
+  }
+  @media (max-width: 750px) {
+    width: 300px;
+    margin-top: 33px;
+  }
+}
+
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  width: 596px;
+  font-size: 30px;
+  line-height: 36px;
+  @media (max-width: 900px) {
+    width: 496px;
+    font-size: 24px;
+    line-height: 24px;
+  }
+  @media (max-width: 750px) {
+    flex-direction: column;
+    width: 300px;
+    margin-top: 10px;
+  }
+
+  span {
+    @media (max-width: 750px) {
+      margin-left: 10px;
+    }
+  }
+}
+
+.input__with__error__container {
+  position: relative;
+  align-self: center;
+}
+
+.input_apllication {
+  outline: 0;
+  outline-offset: 0;
+  border: none;
+  padding-left: 10px;
+  height: 40px;
+  @media (max-width: 750px) {
+    margin-top: 4px;
+    align-self: center;
+  }
+}
+
+.input_name {
+  width: 481px;
+  @media (max-width: 900px) {
+    width: 400px;
+  }
+  @media (max-width: 750px) {
+    width: 280px;
+  }
+}
+
+.input_phone {
+  width: 313px;
+  @media (max-width: 900px) {
+    width: 260px;
+  }
+  @media (max-width: 750px) {
+    width: 280px;
+  }
+}
+
+.input_city {
+  width: 289px;
+  @media (max-width: 900px) {
+    width: 220px;
+  }
+  @media (max-width: 750px) {
+    width: 280px;
+  }
+}
+
+.btn_wrapper {
+  display: flex;
+  justify-content: flex-end;
+  @media (max-width: 750px) {
+    justify-content: center;
+  }
+}
+
+.btn_send {
+  font-family: SF Pro Rounded Regular, system-ui;
+  align-self: flex-end;
+  width: 189px;
+  height: 52px;
+  border: none;
+  background: #FFE814;
+  border-radius: 15px;
+  font-size: 25px;
+  line-height: 29.83px;
+  margin-top: 26px;
+  cursor: pointer;
+  font-weight: normal;
+  color: inherit;
+  text-transform: uppercase;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  transition: all ease 0.25s;
+  @media (max-width: 750px) {
+    margin-top: 15px;
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
+
+.btn_send:hover {
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.5);
+}
+
+.footer_wrapper {
+  display: flex;
+  margin-top: 50px;
+  align-self: flex-end;
+  font-size: 20px;
+  line-height: 24px;
+  @media (max-width: 900px) {
+    font-size: 16px;
+    line-height: 18px;
+  }
+  @media (max-width: 750px) {
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    margin-top: 23px;
+  }
+
+  span {
+    cursor: pointer;
+    border-bottom: 1.5px solid black;
+
+  }
+}
+
+.point {
+  margin-left: 28px;
+  margin-right: 28px;
+  width: 5px;
+  height: 5px;
+  background-color: black;
+  border-radius: 50%;
+  align-self: center;
+  @media (max-width: 750px) {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+.error {
+  position: absolute;
+  //bottom: -18px;
+  //left: 120px;
+  font-size: 16px;
+  line-height: 17px;
+  @media (max-width: 750px) {
+    font-size: 14px;
+    line-height: 12px;
+  }
+  color: red;
+  p {
+    font-size: 16px;
+  }
+}
+
+.error_border {
+  border: 2px solid red;
+}
+
+.success {
+  background-image: url("../../img/lessons/gr_less_app_success_back.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  @media (max-width: 750px) {
+    background-image: url("../../img/lessons/gr_less_app_success_back_mobile.png");
+  }
+}
+
+.success_content {
+  //border: 1px solid red;
+  font-family: SF Pro Rounded Bold, system-ui;
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+  font-size: 50px;
+  line-height: 60px;
+  width: 757px;
+  @media (max-width: 900px) {
+    width: 650px;
+    font-size: 40px;
+  }
+  @media (max-width: 750px) {
+    width: 300px;
+    margin-top: 20px;
+    font-size: 30px;
+    line-height: 36px;
+  }
+  span {
+    align-self: center;
+    text-align: center;
+    margin-top: 100px;
+    width: 594px;
+    @media (max-width: 750px) {
+      width: 276px;
+      margin-top: 140px;
+    }
+  }
+}
+
+.btn_close {
+  align-self: flex-end;
+  margin-right: 25px;
+  @media (max-width: 750px) {
+    align-self: center;
+    margin-right: 0px;
+  }
+}

@@ -1,0 +1,268 @@
+.background__wrapper {
+  //background: url('../../img/about-school/background_about_school.png') no-repeat;
+  //background-size: cover;
+  overflow: hidden;
+}
+
+
+.wrapper {
+  font-family: SF Pro Rounded Regular, system-ui;
+
+  margin: 0 auto;
+  max-width: 1920px;
+  @media (max-width: 950px) {
+    background-image: url('../../../img/about-school/yulia_photo_mobile.svg');
+    background-repeat: no-repeat;
+    background-position: center 148px;
+  }
+}
+
+.container {
+  margin: 0 auto;
+  margin: 0 60px;
+  //background-image: url('../../img/about-school/yulia_photo.png');
+  //background-repeat: no-repeat;
+  //background-position: 38px 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  //border: 1px solid red;
+  @media (min-width: 1600px) {
+    margin: 0 200px;
+  }
+  @media (max-width: 480px) {
+   margin: 0 10px;
+  }
+}
+
+.yulia__photo {
+  position: absolute;
+  top: 66px;
+  left: -460px;
+  @media (max-width: 1230px) {
+    width: 270px;
+    left: -400px;
+  }
+  @media (max-width: 1140px) {
+    left: -360px;
+  }
+  @media (max-width: 1020px) {
+    width: 200px;
+    left: -320px;
+    top: 166px;
+  }
+  //@media (max-width: 950px) {
+  //  top: 66px;
+  //  left: -240px;
+  //}
+  @media (max-width: 950px) {
+    display: none;
+  }
+}
+
+.animation {
+  z-index: -10;
+  position: absolute;
+  bottom: -82px;
+  right: -250px;
+  animation-name: rotation;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  //filter: blur(4px);
+  @media (max-width: 480px) {
+    display: none;
+  }
+}
+
+.animation__mobile {
+  display: none;
+  z-index: -10;
+  position: absolute;
+  top: -201px;
+  left: -141px;
+  animation-name: rotation-mobile;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  @media (max-width: 480px) {
+    display: block;
+  }
+}
+
+@keyframes rotation{
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rotation-mobile{
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+.title {
+  text-transform: uppercase;
+  color: white;
+  font-size: 60px;
+  line-height: 72px;
+  text-align: center;
+  padding-top: 60px;
+  position: relative;
+  @media (max-width: 480px) {
+  }
+
+}
+
+
+
+.title__span {
+  z-index: 5;
+  text-align: center;
+  width: 244px;
+  height: 90px;
+  background-position: 0px -10px;
+  position: relative;
+}
+
+.title__span::after {
+  content: '';
+  z-index: -1;
+  position: absolute;
+  bottom: 10px;
+  left: -34px;
+  background-image: url("../../../img/about-school/purple_back.png");
+  background-repeat: no-repeat;
+  //background-position: center 32px;
+  width: 244px;
+  height: 90px;
+}
+
+.about__yulia {
+  margin-top: 10px;
+  align-self: flex-end;
+  @media (max-width: 950px) {
+    margin-top: 310px;
+    align-self: center;
+  }
+  @media (max-width: 480px) {
+    align-self: center;
+    margin-top: 340px;
+    margin-left: 0px;
+  }
+  li {
+    font-size: 18px;
+    line-height: 21px;
+    width: 680px;
+    margin-top: 40px;
+    @media (max-width: 1140px) {
+      width: 580px;
+    }
+    @media (max-width: 780px) {
+      width: 440px;
+    }
+    @media (max-width: 610px) {
+      width: 390px;
+    }
+    @media (max-width: 480px) {
+      width: 280px;
+      font-size: 15px;
+      line-height: 18px;
+    }
+  }
+  li:last-child {
+    display: none;
+    @media (max-width: 950px) {
+      display: list-item;
+    }
+  }
+}
+
+
+.li__without__list {
+  width: 990px;
+  text-align: center;
+  margin-top: 40px;
+  font-size: 18px;
+  line-height: 21px;
+  @media (max-width: 1130px) {
+    width: 790px;
+  }
+  @media (max-width: 900px) {
+    width: 630px;
+  }
+  @media (max-width: 780px) {
+    width: 530px;
+  }
+  @media (max-width: 610px) {
+    width: 480px;
+  }
+  @media (max-width: 550px) {
+    width: 440px;
+  }
+  @media (max-width: 480px) {
+    width: 300px;
+    margin-left: 0px;
+    font-size: 15px;
+    line-height: 18px;
+  }
+}
+
+.second__li {
+  width: 440px;
+  margin-top: 43px;
+  align-self: flex-start;
+  margin-left: 150px;
+  li {
+    font-size: 18px;
+    line-height: 21px;
+  }
+  @media (max-width: 950px) {
+  display: none;
+  }
+}
+
+.highlighting {
+  color: white;
+  background-image: url("../../../img/about-school/purple_back2.png");
+  background-repeat: no-repeat;
+}
+
+.slogan {
+  position: relative;
+  font-family: SF Pro Rounded Bold;
+  text-align: center;
+  margin-top: 40px;
+  padding-bottom: 220px;
+  align-self: flex-end;
+  margin-right: 128px;
+  text-transform: uppercase;
+  width: 325px;
+  font-size: 18px;
+  line-height: 21px;
+  @media (max-width: 1160px) {
+    margin-right: 30px;
+  }
+  @media (max-width: 950px) {
+    margin-top: 100px;
+    margin-right: 0px;
+
+  }
+
+  @media (max-width: 480px) {
+    align-self: center;
+    width: 325px;
+    margin-top: 121px;
+    margin-right: 0px;
+    padding-bottom: 174px;
+  }
+}

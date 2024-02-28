@@ -1,0 +1,46 @@
+@font-face {font-family: "SF Pro Regular";
+  src: url("./fonts/SF Pro Regular.eot"); /* IE9*/
+  src: url("./fonts/SF Pro Regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("./fonts/SF Pro Regular.woff2") format("woff2"), /* chrome、firefox */
+  url("./fonts/SF Pro Regular.woff") format("woff"), /* chrome、firefox */
+  url("./fonts/SF Pro Regular.ttf") format("truetype") /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+}
+
+@font-face {font-family: "SF Pro Rounded Regular";
+  src: url("./fonts/SF Pro Rounded Regular.eot"); /* IE9*/
+  src: url("./fonts/SF Pro Rounded Regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("./fonts/SF Pro Rounded Regular.woff2") format("woff2"), /* chrome、firefox */
+  url("./fonts/SF Pro Rounded Regular.woff") format("woff"), /* chrome、firefox */
+  url("./fonts/SF Pro Rounded Regular.ttf") format("truetype") /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+
+}
+
+@font-face {font-family: "SF Pro Rounded Bold";
+  src: url("./fonts/SF Pro Rounded Bold.eot"); /* IE9*/
+  src: url("./fonts/SF Pro Rounded Bold.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("./fonts/SF Pro Rounded Bold.woff2") format("woff2"), /* chrome、firefox */
+  url("./fonts/SF Pro Rounded Bold.woff") format("woff"), /* chrome、firefox */
+  url("./fonts/SF Pro Rounded Bold.ttf") format("truetype") /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+}
+
+@font-face {font-family: "SF Pro Rounded Heavy";
+  src: url("./fonts/SF Pro Rounded Heavy.eot"); /* IE9*/
+  src: url("./fonts/SF Pro Rounded Heavy.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("./fonts/SF Pro Rounded Heavy.woff2") format("woff2"), /* chrome、firefox */
+  url("./fonts/SF Pro Rounded Heavy.woff") format("woff"), /* chrome、firefox */
+  url("./fonts/SF Pro Rounded Heavy.ttf") format("truetype") /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+}
+
+body {
+  font-family: SF Pro Regular, system-ui;
+  /*font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu;*/
+}
+
+html {
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+

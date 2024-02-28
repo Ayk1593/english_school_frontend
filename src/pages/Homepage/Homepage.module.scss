@@ -1,0 +1,79 @@
+
+.background__wrapper {
+  background: url('../../img/homepage/background-homepage.png') no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  @media (max-width: 767px) {
+    background: url('../../img/homepage/mobile-background.png') no-repeat;
+    background-size: cover;
+  }
+}
+
+
+.wrapper {
+  position: relative;
+  margin: 0 auto;
+  max-width: 1920px;
+  background: url('../../img/homepage/background-homepage-2.png') no-repeat;
+  //background-position: 680px 10px;
+  background-position: right 40px bottom 0px;
+  //border: 1px solid green;
+  @media (min-width: 1600px) {
+    background-position: right 180px bottom 0px;
+  }
+  @media (max-width: 940px) {
+    background-position: right 90px bottom 0px;
+    background-size: 330px 500px;
+  }
+  @media (max-width: 790px) {
+    background-position: right 30px bottom 0px;
+  }
+  @media (max-width: 840px) {
+    background-size: 297px 450px;
+  }
+  @media (max-width: 670px) {
+    background: none;
+  }
+}
+
+.mobile__background__wrapper {
+  display: none;
+  //transform: scale(-1, 1);
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 258px;
+  height: 378px;
+  @media (max-width: 670px) {
+    display: block;
+    background: url('../../img/homepage/mobile-back-photo.png') no-repeat;
+    image-rendering: optimizeQuality;
+    //background-image: var(--bg-image) ;
+    //background-repeat: no-repeat;
+    //background-size: 258px 378px;
+    //background-position: right 62px bottom 0px;
+    //image-rendering: -webkit-optimize-contrast; /* Отключение сжатия в Safari */
+    //shape-rendering: crispEdges; /* Улучшение рендеринга форм в SVG */
+  }
+}
+
+.container {
+  margin: 0 60px;
+  //border: 1px solid blue;
+  @media (min-width: 1600px) {
+    margin: 0 200px;
+  }
+  @media (max-width: 1148px) {
+    margin: 0 30px;
+  }
+  @media (max-width: 962px) {
+    margin: 0 100px;
+  }
+  @media (max-width: 790px) {
+    margin: 0 30px;
+  }
+  @media (max-width: 550px) {
+    margin: 0 10px;
+  }
+}
+

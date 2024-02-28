@@ -1,0 +1,232 @@
+.login__form__wrapper {
+  font-family: SF Pro Rounded Regular, system-ui;
+  font-size: 30px;
+  line-height: 30px;
+  width: 757px;
+  height: 454px;
+  @media (max-width: 950px) {
+    width: 557px;
+    height: 390px;
+    font-size: 25px;
+  }
+  @media (max-width: 710px) {
+    display: flex;
+    justify-content: center;
+    width: 420px;
+    height: 320px;
+    font-size: 22px;
+  }
+  @media (max-width: 480px) {
+    width: 300px;
+    height: 454px;
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
+
+.login__form {
+  display: flex;
+  flex-direction: column;
+  width: 596px;
+  margin-left: 66px;
+  @media (max-width: 950px) {
+    width: 410px;
+  }
+  @media (max-width: 710px) {
+    margin-left: 0px;
+    width: 320px;
+  }
+  @media (max-width: 480px) {
+    width: 280px;
+    margin: 0 auto;
+  }
+}
+
+.login__input {
+  padding-top: 85px;
+  display: flex;
+  justify-content: space-between;
+  @media (max-width: 710px) {
+    padding-top: 45px;
+  }
+  @media (max-width: 480px) {
+    flex-direction: column;
+    padding-top: 55px;
+  }
+
+}
+
+.password__input {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  @media (max-width: 480px) {
+    flex-direction: column;
+    margin-top: 20px;
+  }
+}
+
+
+.btn__enter {
+  align-self: flex-end;
+  font-family: SF Pro Rounded Regular, system-ui;
+  cursor: pointer;
+  font-weight: normal;
+  color: inherit;
+  margin-top: 26px;
+  width: 151px;
+  height: 52px;
+  background: #FFE814;
+  border-radius: 15px;
+  text-transform: uppercase;
+  font-size: 25px;
+  line-height: 30px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border: none;
+  transition: all ease 0.25s;
+  @media (max-width: 710px) {
+    width: 120px;
+    height: 35px;
+    font-size: 20px;
+    border-radius: 10px;
+  }
+  @media (max-width: 480px) {
+    border-radius: 15px;
+    margin-top: 24px;
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    line-height: 24px;
+    align-self: center;
+  }
+}
+
+.btn__enter:hover {
+  box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.4);
+}
+
+
+.forgot__password__registration {
+  margin-top: 56px;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-self: flex-end;
+  @media (max-width: 710px) {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  @media (max-width: 480px) {
+    flex-direction: column;
+    align-self: center;
+    margin-top: 64px;
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
+
+.forgot__password {
+  cursor: pointer;
+  position: relative;
+  @media (max-width: 480px) {
+    order: 2;
+    margin-top: 18px;
+  }
+}
+
+.forgot__password::before {
+  position: absolute;
+  bottom: 0;
+  content: '';
+  height: 1px;
+  width: 100%;
+  background-color: black;
+}
+
+.point {
+  margin-left: 30px;
+  width: 5px;
+  height: 5px;
+  background-color: black;
+  border-radius: 50%;
+  align-self: center;
+  @media (max-width: 480px) {
+    margin-top: 22px;
+    margin-left: 0px;
+    order: 1;
+  }
+}
+
+.registration {
+  width: 114px;
+  margin-left: 30px;
+  position: relative;
+  @media (max-width: 710px) {
+    width: 92px;
+  }
+  @media (max-width: 480px) {
+    width: 114px;
+    order: -1;
+    margin-left: 15px;
+  }
+}
+
+.registration::before {
+  position: absolute;
+  bottom: 0;
+  content: '';
+  height: 1px;
+  width: 100%;
+  background-color: black;
+}
+
+
+.input__with__error__container {
+  position: relative;
+}
+
+.form__input {
+    font-size: 16px;
+    width: 474px;
+    height: 40px;
+    padding-left: 10px;
+    border: none;
+    outline: 0;
+    outline-offset: 0;
+    @media (max-width: 950px) {
+      width: 290px;
+      height: 35px;
+    }
+    @media (max-width: 710px) {
+      width: 200px;
+    }
+    @media (max-width: 480px) {
+      margin-top: 4px;
+      width: 280px;
+      height: 40px;
+    }
+  }
+
+
+.error {
+  position: absolute;
+  font-size: 16px;
+  line-height: 17px;
+  margin-bottom: 30px;
+  color: red;
+  p {
+    font-size: 16px;
+  }
+}
+
+.error_border {
+  border: 2px solid red;
+}
+
+.authStatus {
+  font-size: 16px;
+  @media (max-width: 710px) {
+    font-size: 10px;
+  }
+}
+

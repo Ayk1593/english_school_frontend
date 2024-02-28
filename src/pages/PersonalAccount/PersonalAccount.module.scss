@@ -1,0 +1,248 @@
+.background__wrapper {
+  background: url('../../img/lk/background-lk.png') no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  font-family: SF Pro Rounded Regular, system-ui;
+  position: relative;
+  @media (max-width: 550px) {
+    background: url('../../img/lk/background-lk-mobile.png') no-repeat;
+    background-size: cover;
+  }
+}
+
+
+.wrapper {
+  //position: relative;
+  margin: 0 auto;
+  max-width: 1920px;
+  //background: url('../../img/homepage/background-homepage-2.png') no-repeat;
+  ////background-position: 680px 10px;
+  //background-position: right 40px bottom 0px;
+  ////border: 1px solid green;
+  //@media (min-width: 1600px) {
+  //  background-position: right 180px bottom 0px;
+  //}
+  //@media (max-width: 940px) {
+  //  //background: none;
+  //  background-position: right 10px bottom 0px;
+  //}
+  //@media (max-width: 940px) {
+  //  background: none;
+  //  //background: url('../../img/homepage/mobile-back-photo.png') no-repeat;
+  //  //background-position: right 0px bottom 0px;
+  //}
+}
+
+
+.container {
+  margin: 0 auto;
+  margin: 0 60px;
+  position: relative;
+  //border: 1px solid blue;
+  //min-height: 100vh;
+  @media (min-width: 1600px) {
+    margin: 0 200px;
+  }
+  @media (min-width: 1600px) {
+    margin: 0 200px;
+  }
+  @media (max-width: 1148px) {
+    margin: 0 30px;
+  }
+  //@media (max-width: 962px) {
+  //  margin: 0 100px;
+  //}
+  @media (max-width: 767px) {
+    margin: 0 10px;
+  }
+
+  //@media (max-width: 1148px) {
+  //  margin: 0 30px;
+  //}
+  //@media (max-width: 962px) {
+  //  margin: 0 100px;
+  //}
+  //@media (max-width: 767px) {
+  //  margin: 0 10px;
+  //}
+}
+
+.header {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flag_envelope_wrapper {
+  display: flex;
+  align-items: center;
+  @media (max-width: 550px) {
+    display: none;
+  }
+}
+
+.nav_wrapper {
+  @media (max-width: 1100px) {
+    display: none;
+  }
+}
+
+.nav_main_wrapper {
+  //border: 1px solid red;
+  display: flex;
+  @media (max-width: 1100px) {
+    margin-left: 0px;
+    justify-content: center;
+  }
+}
+
+.main__wrapper {
+  margin-top: 84px;
+  margin-left: 76px;
+  margin-bottom: 80px;
+  @media (max-width: 1100px) {
+    margin-left: 0px;
+  }
+  @media (max-width: 550px) {
+    margin-top: 30px;
+    margin-bottom: 73px;
+  }
+}
+
+
+.burger_btn {
+  display: none;
+  width: 30px;
+  height: 30px;
+  position: relative;
+  margin-left: 30px;
+  cursor: pointer;
+  @media (max-width: 1100px) {
+    display: block;
+  }
+  @media (max-width: 640px) {
+    margin-left: 15px;
+  }
+  @media (max-width: 550px) {
+    display: none;
+  }
+}
+
+.burger_btn::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  width: 30px;
+  height: 2px;
+  border-radius: 1px;
+  background-color: black;
+  transition: 0.3s all ease;
+}
+
+.burger_btn::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  width: 30px;
+  height: 2px;
+  border-radius: 1px;
+  background-color: black;
+  transition: 0.3s all ease;
+}
+
+.burger_btn.active::before {
+  transform: rotate(45deg);
+  top: 15px;
+}
+
+.burger_btn.active::after {
+  transform: rotate(-45deg);
+  bottom: 12px;
+}
+
+.burger_btn span {
+  position: absolute;
+  top: 14px;
+  width: 30px;
+  height: 2px;
+  border-radius: 1px;
+  background-color: black;
+  transition: 0.3s all ease;
+}
+
+.burger_btn.active span {
+  transform: scale(0);
+}
+
+.menu_points_wrapper {
+  cursor: pointer;
+  //margin-right: 10px;
+  display: none;
+
+  img {
+    padding-left: 30px;
+  }
+
+  @media (max-width: 550px) {
+    display: block;
+  }
+}
+
+.btn_logout {
+  font-size: 20px;
+  line-height: 20px;
+  cursor: pointer;
+  border-bottom: 2px solid black;
+  @media (max-width: 900px) {
+    display: none;
+  }
+}
+
+.btn_logout:hover {
+  color: black;
+}
+
+.btn_admin_enter_wrapper {
+  //margin-top: 30px;
+  position: absolute;
+  top: 80px;
+  right: 0;
+  @media (max-width: 900px) {
+    display: none;
+  }
+}
+
+.btn_admin_enter {
+  font-family: SF Pro Display, system-ui;
+  width: 309px;
+  height: 42px;
+  border: none;
+  background: #FFE814;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: normal;
+  //-webkit-appearance: none;
+  //-moz-appearance: none;
+  //appearance: none;
+  line-height: 29.83px;
+  cursor: pointer;
+  color: inherit;
+  text-transform: uppercase;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  //filter: blur(0.5px);
+  transition: all ease 0.25s;
+  @media (max-width: 1100px) {
+
+  }
+  @media (max-width: 840px) {
+
+  }
+  @media (max-width: 480px) {
+
+  }
+}
+
+.btn_admin_enter:hover {
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.5);
+}

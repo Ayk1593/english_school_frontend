@@ -1,0 +1,75 @@
+.menu {
+  display: none;
+  position: absolute;
+  height: 100%;
+  z-index: 30;
+  transform: translateX(-300px);
+  transition: 0.4s;
+  @media (min-width: 550px) and (max-width: 1100px) {
+    display: block;
+  }
+}
+
+.menu.active {
+  transform: translateX(0);
+}
+
+.menu_content{
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 230px;
+  width: 300px;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(25px);
+  //border-radius: 0px 30px 30px 0px;
+}
+
+.nav {
+  color: #8A8A8A;
+  //padding-top: 158px;
+  margin-left: 30px;
+  font-size: 25px;
+  line-height: 30px;
+}
+
+.item {
+  z-index: 10;
+  margin-top: 25px;
+  width: 191px;
+  position: relative;
+}
+
+.item:nth-child(1) {
+  margin-top: 0px;
+}
+
+
+.item a.active_link {
+  color: black;
+}
+
+.active_link::before {
+  content: '';
+  z-index: -1;
+  position: absolute;
+  left: -60px;
+  top: -4px;
+  width: 300px;
+  height: 40px;
+  background: url("../../../img/lk/active-background.png") no-repeat;
+}
+
+.btn_logout {
+  font-size: 25px;
+  line-height: 30px;
+  margin-left: 11px;
+  margin-top: 25px;
+  cursor: pointer;
+  color: #8A8A8A;
+}
+.btn_logout:hover {
+  color: black;
+}

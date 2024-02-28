@@ -1,0 +1,79 @@
+.wrapper {
+  font-family: SF Pro Rounded Regular, system-ui;
+  width: 500px;
+  height: 330px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  @media (max-width: 550px) {
+    width: 300px;
+    height: 330px;
+  }
+}
+
+.text {
+  //margin-top: 50px;
+  font-size: 30px;
+  @media (max-width: 550px) {
+    font-size: 24px;
+    text-align: center;
+  }
+}
+
+.btn_login {
+  font-family: SF Pro Rounded Regular, system-ui;
+  border: none;
+  margin-top: 40px;
+  background: #FFE814;
+  filter: blur(2px);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  width: 200px;
+  padding-left: 30px;
+  padding-right: 30px;
+  height: 52px;
+  border-radius: 15px;
+  font-size: 25px;
+  line-height: 30px;
+  cursor: pointer;
+  color: inherit;
+  font-weight: normal;
+  //-webkit-appearance: none;
+  //-moz-appearance: none;
+  //appearance: none;
+  text-transform: uppercase;
+  transition: all ease 0.25s;
+
+  //@media (max-width: 860px) {
+  //  width: 80%;
+  //
+  //}
+  @media (max-width: 550px) {
+    width: 160px;
+    height: 40px;
+    font-size: 20px;
+    line-height: 24px;
+    margin-top: 50px;
+    margin-left: 0px;
+    align-self: center;
+    margin-right: 0px;
+  }
+}
+
+
+
+.btn_login:hover {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+.btn_home {
+  font-size: 20px;
+  margin-top: 40px;
+  @media (max-width: 550px) {
+    font-size: 16px;
+  }
+}
+
+
+

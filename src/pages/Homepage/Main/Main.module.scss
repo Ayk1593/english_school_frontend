@@ -1,0 +1,119 @@
+
+.main__wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-top: 161px;
+  @media (max-width: 1018px) {
+    margin-top: 152px;
+  }
+  @media (max-width: 767px) {
+    margin-top: 87px;
+  }
+}
+
+.about__courses {
+  font-family: SF Pro Rounded Regular, system-ui;
+  width: 650px;
+  height: 192px;
+  font-size: 40px;
+  line-height: 48px;
+  @media (max-width: 1148px) {
+    width: 484px;
+    height: 140px;
+    font-size: 30px;
+    line-height: 34px;
+  }
+  @media (max-width: 1018px) {
+    width: 424px;
+    height: 140px;
+    font-size: 24px;
+    line-height: 34px;
+  }
+  @media (max-width: 1018px) {
+    width: 364px;
+    height: 140px;
+    font-size: 22px;
+    line-height: 34px;
+  }
+  @media (max-width: 480px) {
+    //width: 287px;
+    //height: 84px;
+    //font-size: 17px;
+    //line-height: 21px;
+    //width: 360px;
+    //height: 84px;
+    //font-size: 22px;
+    //line-height: 24px;
+    width: 95%;
+    height: 100%;
+    font-size: 5vw;
+    line-height: 6vw;
+  }
+}
+
+.english__language {
+  font-family: SF Pro Rounded Bold, system-ui;
+}
+
+.btn {
+  font-family: SF Pro Rounded Regular, system-ui;
+  margin-top: 86px;
+  margin-bottom: 211px;
+  border: none;
+  background: #FFE814;
+  filter: blur(2px);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  width: 340px;
+  height: 62px;
+  border-radius: 15px;
+  font-size: 25px;
+  line-height: 29.83px;
+  cursor: pointer;
+  font-weight: normal;
+  color: inherit;
+  text-transform: uppercase;
+  transition: all ease 0.25s;
+  @media (max-width: 1148px) {
+    margin-top: 80px;
+    margin-bottom: 369px;
+    font-size: 18px;
+  }
+  @media (max-width: 1018px) {
+    width: 240px;
+    height: 50px;
+    margin-top: 40px;
+  }
+  @media (max-width: 940px) {
+    margin-bottom: 122px;
+  }
+
+  @media (max-width: 767px) {
+    width: 200px;
+    height: 36px;
+    border-radius: 9px;
+    font-size: 14.71px;
+  }
+  @media (max-width: 550px) {
+    margin-top: 40px;
+    align-self: center;
+    margin-bottom: 310px;
+    width: 250px;
+    height: 42px;
+    font-size: 16px;
+  }
+  @media (max-width: 350px) {
+    width: 65%;
+  }
+  @media (max-width: 350px) {
+    font-size: 14px;
+    height: 36px;
+  }
+}
+
+.btn a {
+  color: black
+}
+
+.btn:hover {
+  box-shadow: 399px 0 0 0 rgba(0, 0, 0, .3) inset;
+}

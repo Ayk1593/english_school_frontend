@@ -1,0 +1,97 @@
+.workbook_after_payment_wrapper {
+  background: url('../../img/registration/background-registration.png') no-repeat;
+  background-size: cover;
+  height: 100%;
+  @media (max-width: 650px) {
+    background: url('../../img/registration/background-registration-mobile.png') no-repeat;
+    background-size: cover;
+  }
+}
+
+.workbook_after_payment_container {
+  margin: 0 60px;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: SF Pro Rounded Regular, system-ui;
+  //border: 1px solid blue;
+  @media (max-width: 650px) {
+    margin: 0 10px;
+    align-items: flex-start;
+    height: 100%;
+  }
+}
+
+.workbook_after_payment {
+
+}
+
+
+.success_payment_wrapper {
+  font-family: SF Pro Rounded Regular, system-ui;
+  background-image: url("../../img/courses/email_subs_success_back.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  @media (max-width: 1000px) {
+    background-size: 500px 300px;
+  }
+  @media (max-width: 650px) {
+    background-image: url("../../img/courses/email_subs_success_back_mobile.png");
+    background-size: 280px 350px;
+  }
+}
+
+.success_payment {
+  width: 900px;
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  @media (max-width: 1000px) {
+    width: 600px;
+  }
+  @media (max-width: 650px) {
+    width: 300px;
+    height: 450px;
+  }
+}
+
+.btn_close {
+  width: 100%;
+  margin-top: 20px;
+  margin-right: 30px;
+  display: flex;
+  justify-content: flex-end;
+  @media (max-width: 650px) {
+    justify-content: center;
+    margin-right: 0px;
+  }
+}
+
+.workbook_payment_success {
+  margin-top: 190px;
+  font-size: 44px;
+  @media (max-width: 1000px) {
+    font-size: 34px;
+
+  }
+  @media (max-width: 650px) {
+    width: 250px;
+    text-align: center;
+    margin-top: 130px;
+  }
+}
+
+.loader_wrapper {
+  margin-top: 150px;
+  @media (max-width: 650px) {
+    margin-top: 150px;
+  }
+  img {
+    width: 150px;
+    @media (max-width: 650px) {
+      width: 70px;
+    }
+  }
+}

@@ -1,0 +1,362 @@
+.background__wrapper {
+  background: url('../../../img/lessons/background-lessons.png') no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  @media (max-width: 480px) {
+    background: url('../../../img/lessons/background-lessons-mobile.png') no-repeat;
+    background-size: cover;
+  }
+}
+
+
+.wrapper {
+  font-family: SF Pro Rounded Regular, system-ui;
+  margin: 0 auto;
+  max-width: 1920px;
+  position: relative;
+  //border: 1px solid red;
+}
+
+.container {
+  //border: 1px solid red;
+  margin: 0 60px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  @media (min-width: 1540px) {
+    margin: 0 360px;
+  }
+  @media (max-width: 590px) {
+    width: 300px;
+    margin: 0 auto;
+  }
+}
+
+.title {
+  font-size: 60px;
+  line-height: 72px;
+  padding-top: 60px;
+  text-transform: uppercase;
+  @media (max-width: 1315px) {
+    font-size: 45px;
+    line-height: 50px;
+  }
+  @media (max-width: 1170px) {
+    font-size: 35px;
+    line-height: 40px;
+    align-self: center;
+  }
+  @media (max-width: 595px) {
+    align-self: flex-start;
+    font-size: 25px;
+    line-height: 30px;
+    padding-top: 20px;
+  }
+
+}
+
+.about__lessons {
+  width: 825px;
+  height: 60px;
+  font-size: 25px;
+  line-height: 30px;
+  margin-top: 6px;
+  position: relative;
+  @media (max-width: 1170px) {
+    font-size: 20px;
+    line-height: 25px;
+    width: 540px;
+    align-self: center;
+    text-align: center;
+  }
+  @media (max-width: 915px) {
+    width: 380px;
+  }
+  @media (max-width: 595px) {
+    align-self: flex-start;
+    text-align: left;
+    width: 300px;
+    font-size: 12px;
+    line-height: 14px;
+    margin-top: 0px;
+  }
+}
+
+
+.lessons__card__wrapper {
+  @media (max-width: 1130px) {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.lessons__card__container {
+  position: relative;
+}
+
+.yulia__icon {
+  position: absolute;
+  top: 198px;
+  @media (min-width: 1540px) {
+    top: 198px;
+    left: 320px
+  }
+  @media (max-width: 1070px) {
+    width: 200px;
+
+  }
+  @media (max-width: 915px) {
+    top: 70px;
+  }
+  @media (max-width: 760px) {
+    width: 170px;
+    top: 120px;
+  }
+  @media (max-width: 595px) {
+    width: 170px;
+    top: 88px;
+    left: -16px
+  }
+}
+
+.planet__mobile {
+  position: absolute;
+  z-index: 15;
+  right: 0px;
+  top: 200px
+}
+
+.lessons__card {
+  position: relative;
+  padding-top: 50px;
+  margin-top: 43px;
+  margin-left: 282px;
+  width: 893px;
+  height: 350px;
+  background: rgba(224, 224, 224, 0.25);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(150px);
+  border-radius: 40px;
+
+  ul li {
+    font-size: 25px;
+    line-height: 30px;
+    margin-left: 140px;
+    margin-top: 20px;
+    max-width: 658px;
+    @media (max-width: 1315px) {
+      font-size: 20px;
+      line-height: 25px;
+      margin-left: 80px;
+    }
+    @media (max-width: 1130px) {
+      margin-top: 30px;
+      width: 360px;
+    }
+    @media (max-width: 595px) {
+      margin-top: 20px;
+      font-size: 20px;
+      line-height: 24px;
+      margin-left: 30px;
+      width: 250px;
+    }
+  }
+
+  @media (max-width: 1315px) {
+    width: 693px;
+  }
+  @media (max-width: 1130px) {
+    width: 493px;
+    height: 432px;
+    margin-top: 83px;
+    margin-left: 0px;
+  }
+  @media (max-width: 915px) {
+    margin-top: 136px;
+
+  }
+  @media (max-width: 760px) {
+    margin-top: 160px;
+
+  }
+  @media (max-width: 595px) {
+    margin: 183px 0 0 0;
+    width: 300px;
+    height: 432px;
+    padding-top: 20px;
+
+  }
+}
+
+.ul__wrapper {
+
+  @media (max-width: 1130px) {
+    margin-top: 40px;
+  }
+  @media (max-width: 595px) {
+    margin-top: 0px;
+
+  }
+}
+
+.paragraph {
+  width: 692px;
+  font-size: 25px;
+  line-height: 30px;
+  margin-left: 50px;
+  @media (max-width: 1315px) {
+    width: 592px;
+    font-size: 20px;
+    line-height: 25px;
+  }
+  @media (max-width: 1130px) {
+    width: 380px;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: left;
+  }
+  @media (max-width: 595px) {
+    font-size: 20px;
+    line-height: 24px;
+    width: 280px;
+    height: 96px;
+    margin-left: 10px;
+  }
+}
+
+.yellow__circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+  position: absolute;
+  top: -62px;
+  right: -62px;
+  width: 124px;
+  height: 124px;
+  background: #FFF492;
+  border-radius: 50%;
+  @media (max-width: 595px) {
+    top: -98px;
+    right: -56px;
+  }
+}
+
+.purple__circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: -121px;
+  left: 214px;
+  width: 139px;
+  height: 139px;
+  background: #E0ADFF;
+  border-radius: 50%;
+  @media (max-width: 1130px) {
+    left: -60px;
+  }
+  @media (max-width: 595px) {
+    left: -70px;
+    bottom: -84px;
+  }
+}
+
+.application__btn {
+  font-family: SF Pro Display, system-ui;
+  width: 340px;
+  height: 62px;
+  border: none;
+  background: #FFE814;
+  border-radius: 15px;
+  font-size: 25px;
+  line-height: 29.83px;
+  cursor: pointer;
+  font-weight: normal;
+  color: inherit;
+  text-transform: uppercase;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  //filter: blur(0.5px);
+  transition: all ease 0.25s;
+  @media (max-width: 595px) {
+    width: 250px;
+    height: 40px;
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+}
+
+.application__btn:hover {
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.5);
+}
+
+.btn__container {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 100px;
+  @media (max-width: 595px) {
+    padding-bottom: 50px;
+  }
+}
+
+.btn__wrapper {
+  //margin-left: 410px;
+  margin-top: 145px;
+  width: 340px;
+  height: 62px;
+  position: relative;
+  @media (max-width: 595px) {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 115px;
+    margin-left: 0px;
+  }
+}
+
+.popup {
+  position: absolute;
+  top: -96px;
+  right: -135px;
+  width: 247px;
+  height: 98px;
+  font-size: 15px;
+  line-height: 18px;
+  background: radial-gradient(85.83% 545.23% at 11.34% 26.02%, #FBF3FF 0%, #EAC8FF 41.67%, #F7E9FF 92.71%);
+  border-radius: 20px 20px 20px 0px;
+  transition: all 0.5s ease;
+
+  p {
+    font-size: 15px;
+    line-height: 18px;
+    width: 206px;
+    height: 54px;
+    margin-top: 22px;
+    margin-left: 21px;
+    text-align: center;
+    @media (max-width: 595px) {
+      width: 160.96px;
+      font-size: 11.7px;
+      line-height: 14px;
+      margin-top: 18px;
+      margin-left: 16px;
+    }
+  }
+
+  @media (max-width: 595px) {
+    top: -75px;
+    right: 0;
+    width: 193px;
+    height: 76.57px;
+  }
+}
+
+.highlighting {
+  color: white;
+  background-image: url("../../../img/lessons/purple_back.png");
+  background-repeat: no-repeat;
+  //@media (max-width: 480px) {
+  //  background-image: url("../../img/lessons/purple_back_mobile.png");
+  //}
+}

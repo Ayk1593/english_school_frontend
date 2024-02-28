@@ -1,0 +1,50 @@
+
+.background__wrapper {
+  //background: url('../../img/homepage/background-homepage.png') no-repeat;
+  //background-size: cover;
+}
+
+.wrapper {
+  height: 100vh;
+  margin: 0 auto;
+  max-width: 1640px;
+  /*border: 1px solid red;*/
+}
+
+.container {
+  font-family: SF Pro Rounded Regular, system-ui;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  ///*max-width: 1312px;*/
+  margin: 0 30px;
+  font-size: 50px;
+  @media (max-width: 480px) {
+    margin: 0 10px;
+    font-size: 40px;
+    text-align: center;
+  }
+}
+
+
+.text__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  @media (max-width: 480px) {
+
+  }
+}
+
+.text__info {
+}
+
+.error404 {
+  font-size: 120px;
+  filter: drop-shadow(10px 4px 4px rgba(0, 0, 0, 0.25));
+  @media (max-width: 480px) {
+    font-size: 80px;
+  }
+}

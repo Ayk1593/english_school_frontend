@@ -1,0 +1,45 @@
+.slick__next{
+  //right: 30px;
+  //position: absolute;
+  z-index: 20;
+  position: absolute;
+}
+
+.slick__next::after{
+  content: '';
+  width: 30px;
+  height: 30px;
+  //top: -5px;
+  //right: -3px;
+  right: -4px;
+  position: absolute;
+  background: url("../../img/lk/courses/btn_next.svg") no-repeat;
+}
+
+
+.slick__prev {
+  z-index: 20;
+}
+
+.slick__prev::after {
+  content: '';
+  width: 30px;
+  height: 30px;
+  //top: -5px;
+  right: -4px;
+  position: absolute;
+  background: url("../../img/lk/courses/btn_prev.svg") no-repeat;
+}
+
+
+.test__slick__next {
+  z-index: 20;
+  position: absolute;
+}
+
+
+.test__slick__prev {
+  z-index: 20;
+  position: absolute;
+}
+

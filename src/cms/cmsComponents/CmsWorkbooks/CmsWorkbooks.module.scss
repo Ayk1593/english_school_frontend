@@ -1,0 +1,21 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+
+.title {
+  margin-top: 50px;
+  font-size: 40px;
+  align-self: center;
+}
+
+.add_course_btn {
+  margin-top: 50px;
+  display: flex;
+  button {
+    width: 200px;
+    margin-left: 30px;
+  }
+}
+
